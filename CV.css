@@ -44,9 +44,12 @@ table {
 }
 /* fin reset.css */
 body{
-  background-color: #1f1e30
+	margin: 0;
+	padding: 0;
+  background-color: #1f1e30;
 }
 .backcolor{
+	background: linear-gradient( #253449, #253450, #253449, #1f1e30);
   background-color: #253449;
 }
 .telephone>p{
@@ -54,9 +57,11 @@ body{
   font-size: 1.8em;
   padding: 0.5em;
   text-align: center;
+	text-shadow: 0.1em 0.1em #253449;
 }
 .Titre{
-  font-size: 4em;
+	text-shadow: 0.1em 0.1em #1f1e30;
+  font-size: 5em;
   font-family: 'Quattrocento', serif;
   color: #ffffff;
   text-align: center;
@@ -64,20 +69,45 @@ body{
   padding: 0.5em;
 }
 
+.Dev{
+	text-shadow: 0.1em 0.1em #1f1e30;
+	font-size: 2.5em;
+	color: #b29e84;
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+}
+
+.nav{
+	position: sticky;
+	top: 0px;
+}
 .liste{
+	letter-spacing: -0.25rem;
   color: #b29e84;
   font-family: 'Josefin Sans', sans-serif;
-  text-align: center;
-  margin: 0.5em;
+  /* margin: 0.5em; */
 }
 
 li{
+	width: calc(99.5%/6);
+	text-align: center;
+	background: linear-gradient(#253449,#1f1e30);
   font-size: 2em;
-  border: solid #ffffff 2px;
   display: inline-block;
   border-radius: 10px;
-  padding: 0.5em;
+	border: solid  2px #b29e84;
+	box-sizing: border-box;
+	letter-spacing: normal;
+	padding:0.5em;
+	height: 2em;
 }
+.bordG{
+	border-bottom-left-radius: 30px;
+}
+.bordD{
+	border-bottom-right-radius: 30px;
+}
+
 p{
   font-size: 1.3em;
   color: #ffffff;
@@ -131,7 +161,76 @@ h4{
 }
 .text{
   text-align: center;
+	margin: 1em;
 }
-#B2S{
-  margin: 3em;
+#B2S, #CDDI, #IVALIS, #ALARME{
+  margin: 2em;
+}
+.text2{
+	text-align: center;
+  font-size: 1em;
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: italic;
+  }
+.FOOTER{
+	border: solid 2px #b29e84;
+	border-radius: 10px;
+	background: linear-gradient(#1f1e30, #253449);
+}
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+ position: fixed;
+ top: 50%;
+ -webkit-transform: translateY(-50%);
+ -ms-transform: translateY(-50%);
+ transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+ display: block;
+ text-align: center;
+ padding: 16px;
+ transition: all 0.3s ease;
+ color: white;
+ font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+ background-color: #b29e80;
+}
+
+.telephone1 {
+ background: #253440;
+ color: white;
+}
+
+.mail {
+ background: #253450;
+ color: white;
+}
+
+.git {
+ background: #253460;
+ color: white;
+}
+
+.linkedin {
+ background: #253470;
+ color: white;
+}
+.rebordIconTop{
+	border-top-right-radius: 25px;
+}
+.rebordIconDown{
+	border-bottom-right-radius: 25px;
+}
+a{
+	text-decoration: none;
+	color: #b29e84;
+	display: block;
+}
+:target {
+    border-top: 80px solid transparent;
 }

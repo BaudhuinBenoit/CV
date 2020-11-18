@@ -6,32 +6,37 @@
     <link rel="stylesheet" href="CV.css">
     <link href="https://fonts.googleapis.com/css2?family=Quattrocento&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css>
     <title>Site personnel</title>
   </head>
   <body>
     <header>
+      <div class="bord">
+
       <div class="backcolor">
         <h1 class="Titre">Baudhuin Benoit</h1>
+        <h2 class="Dev"> DEVELLOPEUR WEB JUNIOR</h2>
         <div class="telephone">
-          <p>07.66.21.06.04</p>
+          <p> <i class="fas fa-phone-square"></i> 07.66.21.06.04</p>
         </div>
       </div>
     </header>
-    <nav class="nav">
+    <nav class="nav bordG">
       <ul class="liste">
-        <li>Présentation</li>
-        <li>Mes Compétences</li>
-        <li>Mes Expériences</li>
-        <li>Portfolio</li>
-        <li>Coordonnées</li>
+        <li class="bordG"><a href="#presentation">Présentation</a></li>
+        <li> <a href="#competences"></a> Compétences</li>
+        <li> <a href="#experiences"></a>Expériences</li>
+        <li> <a href="#portfolio"></a> Portfolio</li>
+        <li> <a href="#"></a> Coordonnées</li>
+        <li class="bordD"><a class="lien" href="https://drive.google.com/file/d/1pPX16BmE7G-hlyJIPnZgAq8i2yCx43_s/view?usp=sharing" target=_blank ><i class="far fa-sm fa-save"> </i> CV </a></li>
       </ul>
     </nav>
     <main>
-      <div class="Presentation">
-        <h2>Présentation</h2>
+      <div  class="Presentation" >
+        <h2 id="presentation">Présentation</h2>
         <div class="moitie1">
           <h3>A propos de moi:</h3><br>
-          <p>Développeur Web junior, âgé de 34ans et titulaire du permis B, je souhaite aujourd’hui élargir mes horizons et me rapprocher de ma passion pour l'informatique.</p>
+          <p>Développeur Web junior, âgé de 34ans et titulaire du permis B, je souhaite aujourd’hui élargir mes horizons et me rapprocher de ma passion pour l'informatique.</p><br>
         </div>
         <div class="moitie1">
           <h3>Centres d'intérêt:</h3><br>
@@ -43,7 +48,7 @@
       </div>
 
       <div class="deplacementp">
-        <h2>Mes compétences</h2>
+        <h2 id="competences">Compétences</h2>
         <p>- Capacité de management</p>
         <p>- Sens des responsabilités</p>
         <p>- Adaptation Facile</p>
@@ -52,35 +57,68 @@
       </div>
 
       <div class="Experiences">
-        <h2>Mes Expériences</h2>
+        <h2>Expériences</h2>
         <div id="CDDI">
           <h4>CDDI ATELIER NUMERIQUE</h4>
           <p class="text1">Association Ageval - Valenciennes</p><br>
-          <p class="text1">SEPT 2020-AJD</p><br>
-          <p class="text">- Apprentissage des langages HTML5,CSS3 et Javascript.</p>
+          <p class="text2">SEPT 2020-AJD</p><br>
+          <p class="text">- Apprentissage des langages HTML5,CSS3 et Javascript.   <i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> <i class="fab fa-js"></i>
+
+
+</p>
           <p class="text">- Notions sur les logiciels Adobe Photoshop et Illustrator.</p>
           <p class="text">- Utilisation de GitHub.</p>
         </div>
         <div id="B2S">
           <h4>TELEVENDEUR - B2S VALENCIENNES</h4>
-          <p class="text1">JUIN 2017-AOUT 2017</p><br>
+          <p class="text2">JUIN 2017-AOUT 2017</p><br>
           <p class="text">- Chargé de contacter une liste de prospect.</p>
           <p class="text">- Fournir aux clients les informations concernant leur offre gratuite.</p>
           <p class="text">- Amener le client a souscrire a une offre.</p>
         </div>
         <div id="IVALIS">
           <h4>CHEF DE ZONE - IVALIS NANTES</h4>
-          <p class="text1">SEPT 2013-AVRIL 2015</p>
+          <p class="text2">SEPT 2013-AVRIL 2015</p><br>
           <p class="text">- Assurer le balisage des rayons du client.</p>
           <p class="text">- Recevoir une équipe et les former au process de comptage.</p>
           <p class="text">- Veiller au bon déroulement de l'inventaire.</p>
         </div>
+        <div id="ALARME">
+          <h4>FORMATION SYSTEME D'ALARME</h4>
+          <p class="text1">Centre Actif - Valenciennes</p><br>
+          <p class="text2">SEPT 2008 -FEVRIER 2009</p><br>
+          <p class="text">- Installation de centrale d'alarme. (SIEMENS)</p>
+          <p class="text">- Installation d'éléments de sécurité. (ILS, Détecteurs,...)</p>
+          <p class="text">- Simulation de devis.</p>
+        </div>
+        <div id="BAC">
+          <h4>BAC ELECTRONIQUE</h4>
+          <p class="text1">Lycée Georges Bustin - Vieux-Condé</p><br>
+          <p class="text2">JUIN 2006</p><br>
+          <p class="text">- Création de typon afin de réaliser un circuit imprimé.</p>
+          <p class="text">- Utilisation des logiciels ISIS et ARES.</p>
+          <p class="text">- Réalisation du circuit imprimé.</p>
+        </div>
+        <div class="PORTFOLIO">
 
-
+        </div>
+        <div class="icon-bar">
+          <a href="tel:+33766210604" class="telephone1 rebordIconTop"><i class="fas fa-phone-square"></i></a>
+          <a href="mailto:baudhuinbenoit@gmail.com" class="mail"><i class="far fa-envelope"></i></a>
+          <a href="https://github.com/BaudhuinBenoit" target="_blank" class="git"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/benoit-baudhuin-6759981b9" target=_blank class="linkedin rebordIconDown"><i class="fab fa-linkedin"></i></a>
+</div>
       </div>
     </main>
     <footer>
+      <div class="FOOTER">
+      <p class="text"><i class="fab fa-linkedin"></i> Benoit Baudhuin <i class="fab fa-github"></i> BaudhuinBenoit</i>
+</p>
 
+        </div>
+
+    </div>
+  </div>
     </footer>
 
   </body>
