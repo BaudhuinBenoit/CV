@@ -43,6 +43,9 @@ table {
 	border-spacing: 0;
 }
 /* fin reset.css */
+html{
+	scroll-behavior: smooth;
+}
 body{
 	margin: 0;
 	padding: 0;
@@ -257,10 +260,11 @@ a{
 	width: 50%;
 	box-sizing: border-box;
 	display: inline-block;
+	float: left;
 }
 .moitied{
 	width: 49%;
-	border: solid 2px red;
+	/* border: solid 2px red; */
 	float: right;
 	box-sizing: border-box;
 }
@@ -268,31 +272,32 @@ a{
 	clear: both;
 }
 hr.style {
-	width: 10%;
+	width: 20%;
 	height: 5px;
 	border: 0;
 	box-shadow: 0 10px 10px -10px #b29e84 inset;
 }
 
 .moitiedp{
-	display: inline-block;
+	top: 150px;
+	display: block;
 	width: 49%;
 	float: right;
-	height: 655px;
+	height: 400px;
 	margin: 0;
 	padding: 0;
 	position: relative;
   box-sizing: border-box;
-  /* background: 50% 50% / content; */
-	background-image: url("fond1.jpg");
+  background: 50% 50% / content;
   background-attachment: fixed;
 	z-index: -1;
+
+
 }
 .moitiedg{
 		display: inline-block;
 		width: 49%;
 		float: left;
-		background-image: url("fond1.jpg");
 		height: 278px;
 		margin: 0;
 		padding: 0;
@@ -301,4 +306,142 @@ hr.style {
 	  /* background: 50% 50% / content; */
 	  background-attachment: fixed;
 		z-index: -1;
+		background-repeat: no-repeat;
+		/* background-position: left ; */
+	}
+	.backageval{
+		background-image: url("ageval.png");
+		background-size: 22%;
+		background-repeat: no-repeat;
+		background-position: 80%;
+	}
+	.backb2s{
+		background-image: url("b2s.jfif");
+		background-size: 15%;
+		background-position: 23%;
+	}
+	.backivalis{
+		display: inline-block;
+		width: 49%;
+		float: right;
+		height: 278px;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		box-sizing: border-box;
+		background-attachment: fixed;
+		z-index: -1;
+		background-repeat: no-repeat;
+		background-image: url("ivalis.jpg");
+		background-position: 80%;
+		background-size: 20%;
+		}
+		.backactif{
+			display: inline-block;
+			width: 49%;
+			float: left;
+			height: 278px;
+			margin: 0;
+			padding: 0;
+			position: relative;
+			box-sizing: border-box;
+			background-attachment: fixed;
+			z-index: -1;
+			background-repeat: no-repeat;
+			background-image: url("actif.png");
+			background-position:23%;
+			background-size: 15%
+		}
+.backlycee{
+	display: inline-block;
+	width: 49%;
+	float: right;
+	height: 278px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	box-sizing: border-box;
+	background-attachment: fixed;
+	z-index: -1;
+	background-repeat: no-repeat;
+	background-image: url("21095.jpg");
+	background-position: 75%;
+	background-size: 15%;
+}
+	.img {
+		text-align: center;
+		padding: 1em;
+	}
+
+	/* debut responsive! */
+	@media screen and (max-width:767px) {
+/* barre social */
+		.icon-bar a {
+		 display: block;
+		 transition: all 0.3s ease;
+		 color: white;
+		 font-size: 20px;
+		}
+
+
+/* gestion des icones */
+	.icon-bar a:hover {
+		 background-color: #b29e80;
+		}
+	.telephone1 {
+		 background: #253440;
+		 color: white;
+		}
+
+	.mail {
+		 background: #253450;
+		 color: white;
+		}
+
+	.git {
+		 background: #253460;
+		 color: white;
+		}
+
+	.linkedin {
+		 background: #253470;
+		 color: white;
+		}
+	.rebordIconTop{
+			border-top-right-radius: 25px;
+		}
+	.rebordIconDown{
+			border-bottom-right-radius: 25px;
+		}
+	.icon-bar {
+		transform: rotate(270deg);
+		position: fixed;
+		right: 200px;
+		top: 610px;
+		}
+/* fin de gestion barre social */
+
+/* menu */
+nav{
+	display: none;
+}
+/* fin menu */
+
+/* gestion des div */
+.moitieg {
+	text-align: center;
+	width: 100%
+}
+.moitiedp{
+	text-align: center;
+	width: 100%;
+}
+.backageval{
+	width: 100%;
+	background-position: center;
+	background-size: 50%;
+	height: 250px
+
+}
+
 	}
