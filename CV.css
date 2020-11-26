@@ -196,9 +196,6 @@ h4{
 .icon-bar {
  position: fixed;
  top: 50%;
- -webkit-transform: translateY(-50%);
- -ms-transform: translateY(-50%);
- transform: translateY(-50%);
 }
 
 /* Style the icon bar links */
@@ -288,7 +285,6 @@ hr.style {
 	padding: 0;
 	position: relative;
   box-sizing: border-box;
-  background: 50% 50% / content;
   background-attachment: fixed;
 	z-index: -1;
 
@@ -303,11 +299,9 @@ hr.style {
 		padding: 0;
 		position: relative;
 	  box-sizing: border-box;
-	  /* background: 50% 50% / content; */
 	  background-attachment: fixed;
 		z-index: -1;
 		background-repeat: no-repeat;
-		/* background-position: left ; */
 	}
 	.backageval{
 		background-image: url("ageval.png");
@@ -374,7 +368,7 @@ hr.style {
 	}
 
 	/* debut responsive! */
-	@media screen and (max-width:767px) {
+	@media screen and (max-width:768px) {
 /* barre social */
 		.icon-bar a {
 		 display: block;
@@ -432,6 +426,10 @@ nav{
 	text-align: center;
 	width: 100%
 }
+.moitied{
+	text-align: center;
+	width: 100%
+}
 .moitiedp{
 	text-align: center;
 	width: 100%;
@@ -440,8 +438,49 @@ nav{
 	width: 100%;
 	background-position: center;
 	background-size: 50%;
-	height: 250px
+	height: 300px;
+	bottom: 50px;
+	top: 0px;
+}
+.backb2s{
+	width: 100%;
+	background-position: center;
+	background-size: 40%;
+	height: 300px;
+	bottom: 50px;
+	top: 0px;
+}
+.backivalis{
+	width: 100%;
+	background-position: center;
+	background-size: 50%;
+	height: 300px;
+	bottom: 50px;
+	top: 0px;
+}
+.backactif{
+	width: 100%;
+	background-position: center;
+	background-size: 40%;
+	height: 300px;
+	bottom: 50px;
+	top: 0px;
+}
+.backlycee{
+	width: 100%;
+	background-position: center;
+	background-size: 30%;
+	height: 300px;
+	bottom: 50px;
+	top: 0px;
+}
+/* fin de gestion des div */
+.backcolor{
+	width: 100%
+}
+/* test menu */
 
 }
+
 
 	}
