@@ -371,12 +371,15 @@ hr.style {
 	@media screen and (max-width:768px) {
 /* barre social */
 		.icon-bar a {
-		 display: block;
+		 display: inline-block;
 		 transition: all 0.3s ease;
 		 color: white;
 		 font-size: 20px;
+		 width: calc(100%/4);
+		 letter-spacing: normal;
+		 padding: 0;
+		 line-height: 2;
 		}
-
 
 /* gestion des icones */
 	.icon-bar a:hover {
@@ -402,16 +405,17 @@ hr.style {
 		 color: white;
 		}
 	.rebordIconTop{
-			border-top-right-radius: 25px;
+			border-top-right-radius: 0px;
 		}
 	.rebordIconDown{
-			border-bottom-right-radius: 25px;
+			border-bottom-right-radius: 0px;
 		}
 	.icon-bar {
-		transform: rotate(270deg);
 		position: fixed;
-		right: 200px;
-		top: 610px;
+		bottom: 0;
+		top: unset;
+		letter-spacing: -0.25rem;
+		width: 100%;
 		}
 /* fin de gestion barre social */
 
@@ -478,9 +482,19 @@ nav{
 .backcolor{
 	width: 100%
 }
-/* test menu */
-
+.img img{
+	width: 100%;
+	margin-bottom: 75px;
 }
-
+.FOOTER{
+	display: none;
+}
+.Titre{
+	font-size: 4em;
+}
+.Dev{
+	font-size: 2em;
+}
+/* test menu */
 
 	}
