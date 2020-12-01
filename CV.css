@@ -110,6 +110,15 @@ li {
 	height: 2em;
 	color: #b29e84;
 	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+/* test */
+
+
+/* fin test  */
+li:hover{;
+	text-decoration: underline;
 }
 .bordG{
 	border-bottom-left-radius: 30px;
@@ -368,9 +377,9 @@ hr.style {
 	}
 
 	/* debut responsive! */
-	@media screen and (max-width:768px) {
-/* barre social */
-		.icon-bar a {
+@media screen and (max-width:861px) {
+			/* barre social */
+			.icon-bar a {
 		 display: inline-block;
 		 transition: all 0.3s ease;
 		 color: white;
@@ -381,120 +390,181 @@ hr.style {
 		 line-height: 2;
 		}
 
-/* gestion des icones */
-	.icon-bar a:hover {
-		 background-color: #b29e80;
+			/* gestion des icones */
+			.icon-bar a:hover {
+		 		background-color: #b29e80;
 		}
-	.telephone1 {
+			.telephone1 {
 		 background: #253440;
 		 color: white;
 		}
 
-	.mail {
-		 background: #253450;
-		 color: white;
+			.mail {
+		 		background: #253450;
+		 		color: white;
 		}
 
-	.git {
-		 background: #253460;
-		 color: white;
+			.git {
+		 		background: #253460;
+		 		color: white;
 		}
 
-	.linkedin {
-		 background: #253470;
-		 color: white;
+			.linkedin {
+		 		background: #253470;
+		 		color: white;
 		}
-	.rebordIconTop{
-			border-top-right-radius: 0px;
+			.rebordIconTop{
+				border-top-right-radius: 0px;
 		}
-	.rebordIconDown{
-			border-bottom-right-radius: 0px;
+			.rebordIconDown{
+				border-bottom-right-radius: 0px;
 		}
-	.icon-bar {
-		position: fixed;
-		bottom: 0;
-		top: unset;
-		letter-spacing: -0.25rem;
-		width: 100%;
+			.icon-bar {
+				position: fixed;
+				bottom: 0;
+				top: unset;
+				letter-spacing: -0.25rem;
+				width: 100%;
 		}
-/* fin de gestion barre social */
+			/* fin de gestion barre social */
 
-/* menu */
-nav{
-	display: none;
-}
-/* fin menu */
+			/* menu */
+			nav{
+				display: none;
+		}
+		.navmobile{
+			top: 0;
+			position: sticky;
+			max-width: 860px;
+			margin: auto;
+			background-color: linear-gradient( #253449, #253450, #253449, #1f1e30);
+			height: 55px;
+			color: #b29e84;
+			border-radius: 10px;
+			opacity: 0.8;
+		}
+		.topnav{
+			position: sticky;
+			overflow: hidden;
+			background-color:  linear-gradient( #253449, #253450, #253449, #1f1e30);
+			position: relative;
+		}
+		.topnav #lien {
+			display: none;
+		}
+		.topnav a {
+			color: #b29e84;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 30px;
+			display: block;
+		}
+		.topnav a.icon{
+			background:  linear-gradient( #253449, #253450, #253449, #1f1e30);
+			display: block;
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+		.topnav a:hover{
+			background-color: linear-gradient( #253449, #253450, #253449, #1f1e30);
+			color: #b29e84;
+		}
+		.active{
+			background-color:  linear-gradient( #253449, #253450, #253449, #1f1e30);
+			color: #b29e84;
+		}
 
-/* gestion des div */
-.moitieg {
-	text-align: center;
-	width: 100%
-}
-.moitied{
-	text-align: center;
-	width: 100%
-}
-.moitiedp{
-	text-align: center;
-	width: 100%;
-}
-.backageval{
-	width: 100%;
-	background-position: center;
-	background-size: 50%;
-	height: 300px;
-	bottom: 50px;
-	top: 0px;
-}
-.backb2s{
-	width: 100%;
-	background-position: center;
-	background-size: 40%;
-	height: 300px;
-	bottom: 50px;
-	top: 0px;
-}
-.backivalis{
-	width: 100%;
-	background-position: center;
-	background-size: 50%;
-	height: 300px;
-	bottom: 50px;
-	top: 0px;
-}
-.backactif{
-	width: 100%;
-	background-position: center;
-	background-size: 40%;
-	height: 300px;
-	bottom: 50px;
-	top: 0px;
-}
-.backlycee{
-	width: 100%;
-	background-position: center;
-	background-size: 30%;
-	height: 300px;
-	bottom: 50px;
-	top: 0px;
-}
-/* fin de gestion des div */
-.backcolor{
-	width: 100%
-}
-.img img{
-	width: 100%;
-	margin-bottom: 75px;
-}
-.FOOTER{
-	display: none;
-}
-.Titre{
-	font-size: 4em;
-}
-.Dev{
-	font-size: 2em;
-}
-/* test menu */
+		/* fin menu */
 
+		/* gestion des div */
+		.moitieg {
+			text-align: center;
+			width: 100%
+		}
+		.moitied{
+			text-align: center;
+			width: 100%
+		}
+		.moitiedp{
+			text-align: center;
+			width: 100%;
+		}
+		.backageval{
+			width: 100%;
+			background-position: center;
+			background-size: 50%;
+			height: 300px;
+			bottom: 50px;
+			top: 0px;
+		}
+		.backb2s{
+			width: 100%;
+			background-position: center;
+			background-size: 40%;
+			height: 300px;
+			bottom: 50px;
+			top: 0px;
+		}
+		.backivalis{
+			width: 100%;
+			background-position: center;
+			background-size: 50%;
+			height: 300px;
+			bottom: 50px;
+			top: 0px;
+		}
+		.backactif{
+			width: 100%;
+			background-position: center;
+			background-size: 40%;
+			height: 300px;
+			bottom: 50px;
+			top: 0px;
+		}
+		.backlycee{
+			width: 100%;
+			background-position: center;
+			background-size: 30%;
+			height: 300px;
+			bottom: 50px;
+			top: 0px;
+		}
+		/* fin de gestion des div */
+		.backcolor{
+			width: 100%
+		}
+		.img img{
+			width: 100%;
+			margin-bottom: 75px;
+		}
+		.FOOTER{
+			display: none;
+		}
+		.Titre{
+			font-size: 4em;
+		}
+		.Dev{
+			font-size: 2em;
+		}
 	}
+@media screen and (min-width:862px) and (max-width:1024px){
+	li {
+		width: calc(99%/5);
+		text-align: center;
+		background: linear-gradient(#253449,#1f1e30);
+	  font-size: 1.5em;
+	  display: inline-block;
+	  border-radius: 10px;
+		border: solid  2px #b29e84;
+		box-sizing: border-box;
+		letter-spacing: normal;
+		padding:0.5em;
+		height: 2em;
+		color: #b29e84;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+	.navmobile{
+		display: none;
+	}
+}

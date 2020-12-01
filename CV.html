@@ -14,7 +14,7 @@
     <header>
       <div class="bord">
         <div class="backcolor">
-          <h1 class="Titre">Baudhuin Benoit</h1>
+          <h1  id="accueil"class="Titre">Baudhuin Benoit</h1>
           <h2 class="Dev"> DEVELLOPEUR WEB JUNIOR</h2>
           <div class="telephone">
             <p> <i class="fas fa-phone-square"></i> 07.66.21.06.04</p>
@@ -22,6 +22,21 @@
         </div>
       </div>
     </header>
+    <div class="navmobile">
+      <div class="topnav">
+        <a href="#accueil" class="active"><i class="fas fa-lg fa-angle-up"></i></a>
+        <div id="lien">
+          <a href="#presentation" onclick="closeNav()">Présentation</a>
+          <a href="#competences">Compétences</a>
+          <a href="#experiences">Expériences</a>
+          <a href="#portfolio">Portfolio</a>
+          <a class="lien" href="https://drive.google.com/file/d/1pPX16BmE7G-hlyJIPnZgAq8i2yCx43_s/view?usp=sharing" target=_blank ><i class="far fa-sm fa-save"> </i> CV </a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </div>
     <nav class="nav bordG">
       <ul class="liste">
         <li class="bordG"><a href="#presentation">Présentation</a></li>
@@ -147,6 +162,15 @@
       <p class="text"><i class="fab fa-linkedin"></i> Benoit Baudhuin <i class="fab fa-github"></i> BaudhuinBenoit</p>
       </div>
     </footer>
-
+    <script>
+      function myFunction() {
+        let x = document.getElementById("lien");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
   </body>
 </html>
