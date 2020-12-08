@@ -327,48 +327,48 @@ hr.style {
 		z-index: -1;
 		background-repeat: no-repeat;
 	}
-	.backageval{
+.backageval{
 		background-image: url("ageval.png");
 		background-size: 22%;
 		background-repeat: no-repeat;
 		background-position: 80%;
 	}
-	.backb2s{
+.backb2s{
 		background-image: url("b2s.jfif");
 		background-size: 15%;
 		background-position: 23%;
 	}
-	.backivalis{
-		display: inline-block;
-		width: 49%;
-		float: right;
-		height: 278px;
-		margin: 0;
-		padding: 0;
-		position: relative;
-		box-sizing: border-box;
-		background-attachment: fixed;
-		z-index: -1;
-		background-repeat: no-repeat;
-		background-image: url("ivalis.jpg");
-		background-position: 80%;
-		background-size: 20%;
+.backivalis{
+	display: inline-block;
+	width: 49%;
+	float: right;
+	height: 278px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	box-sizing: border-box;
+	background-attachment: fixed;
+	z-index: -1;
+	background-repeat: no-repeat;
+	background-image: url("ivalis.jpg");
+	background-position: 80%;
+	background-size: 20%;
 		}
-		.backactif{
-			display: inline-block;
-			width: 49%;
-			float: left;
-			height: 278px;
-			margin: 0;
-			padding: 0;
-			position: relative;
-			box-sizing: border-box;
-			background-attachment: fixed;
-			z-index: -1;
-			background-repeat: no-repeat;
-			background-image: url("actif.png");
-			background-position:23%;
-			background-size: 15%
+.backactif{
+	display: inline-block;
+	width: 49%;
+	float: left;
+	height: 278px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	box-sizing: border-box;
+	background-attachment: fixed;
+	z-index: -1;
+	background-repeat: no-repeat;
+	background-image: url("actif.png");
+	background-position:23%;
+	background-size: 15%
 		}
 .backlycee{
 	display: inline-block;
@@ -386,193 +386,192 @@ hr.style {
 	background-position: 75%;
 	background-size: 15%;
 }
-	.img {
-		text-align: center;
-		padding: 1em;
-	}
+.img {
+	text-align: center;
+	padding: 1em;
+}
 
 	/* debut responsive! */
 @media screen and (max-width:861px) {
-			/* barre social */
-			.icon-bar a {
-		 display: inline-block;
-		 transition: all 0.3s ease;
-		 color: white;
-		 font-size: 20px;
-		 width: calc(100%/4);
-		 letter-spacing: normal;
-		 padding: 0;
-		 line-height: 2;
-		}
-
-			/* gestion des icones */
-			.icon-bar a:hover {
-		 		background-color: #b29e80;
-		}
-			.telephone1 {
-		 background: #253440;
-		 color: white;
-		}
-
-			.mail {
-		 		background: #253450;
-		 		color: white;
-		}
-
-			.git {
-		 		background: #253460;
-		 		color: white;
-		}
-
-			.linkedin {
-		 		background: #253470;
-		 		color: white;
-		}
-			.rebordIconTop{
-				border-top-right-radius: 0px;
-		}
-			.rebordIconDown{
-				border-bottom-right-radius: 0px;
-		}
-			.icon-bar {
-				position: fixed;
-				bottom: 0;
-				top: unset;
-				letter-spacing: -0.25rem;
-				width: 100%;
-		}
-			/* fin de gestion barre social */
-
-			/* menu */
-			nav{
-				display: none;
-		}
-		.navmobile{
-			top: 0;
-			position: sticky;
-			max-width: 860px;
-			margin: auto;
-			background: linear-gradient(#1f1e30,#253449);
-			background-color: #253449;
-			height: 60px;
-			color: #b29e84;
-			border-radius: 10px;
-
-		}
-		.topnav{
-			position: sticky;
-			position: relative;
-		}
-		.topnav #lien {
-			display: none;
-			background: linear-gradient(#253449,#1f1e30);
-		}
-		.topnav a {
-			color: #b29e84;
-			padding: 14px 16px;
-			text-decoration: none;
-			font-size: 30px;
-			display: block;
-		}
-		.topnav a.icon{
-			display: block;
-			position: absolute;
-			right: 0;
-			top: 0;
-		}
-		.hamburger{
-			z-index: 3;
-		}
-		.topnav a:hover{
-
-			color: #b29e84;
-		}
-		.active{
-
-			color: #b29e84;
-		}
-
-		/* fin menu */
-
-		/* gestion des div */
-		.moitieg {
-			text-align: center;
-			width: 100%
-		}
-		.moitied{
-			text-align: center;
-			width: 100%
-		}
-		.moitiedp{
-			text-align: center;
-			width: 100%;
-		}
-		.backageval{
-			width: 100%;
-			background-position: center;
-			background-size: 50%;
-			height: 300px;
-			bottom: 50px;
-			top: 0px;
-		}
-		.backb2s{
-			width: 100%;
-			background-position: center;
-			background-size: 40%;
-			height: 300px;
-			bottom: 50px;
-			top: 0px;
-		}
-		.backivalis{
-			width: 100%;
-			background-position: center;
-			background-size: 50%;
-			height: 300px;
-			bottom: 50px;
-			top: 0px;
-		}
-		.backactif{
-			width: 100%;
-			background-position: center;
-			background-size: 40%;
-			height: 300px;
-			bottom: 50px;
-			top: 0px;
-		}
-		.backlycee{
-			width: 100%;
-			background-position: center;
-			background-size: 30%;
-			height: 300px;
-			bottom: 50px;
-			top: 0px;
-		}
-		/* fin de gestion des div */
-		.backcolor{
-			width: 100%
-		}
-		.img img{
-			width: 100%;
-			margin-bottom: 75px;
-		}
-		.FOOTER{
-			display: none;
-		}
-		.Titre{
-			font-size: 4em;
-		}
-		.Dev{
-			font-size: 2em;
-		}
+	.icon-bar a {
+		display: inline-block;
+		transition: all 0.3s ease;
+		color: white;
+		font-size: 20px;
+		width: calc(100%/4);
+		letter-spacing: normal;
+		padding: 0;
+		line-height: 2;
 	}
+
+	/* gestion des icones */
+	.icon-bar a:hover {
+		background-color: #b29e80;
+	}
+	.telephone1 {
+		background: #253440;
+		color: white;
+	}
+
+	.mail {
+		background: #253450;
+		color: white;
+	}
+
+	.git {
+		background: #253460;
+		color: white;
+	}
+
+	.linkedin {
+		background: #253470;
+		color: white;
+	}
+	.rebordIconTop{
+		border-top-right-radius: 0px;
+	}
+	.rebordIconDown{
+		border-bottom-right-radius: 0px;
+	}
+	.icon-bar {
+		position: fixed;
+		bottom: 0;
+		top: unset;
+		letter-spacing: -0.25rem;
+		width: 100%;
+	}
+	/* fin de gestion barre social */
+
+	/* menu */
+	nav{
+		display: none;
+	}
+	.navmobile{
+		top: 0;
+		position: sticky;
+		max-width: 860px;
+		margin: auto;
+		background: linear-gradient(#1f1e30,#253449);
+		background-color: #253449;
+		height: 60px;
+		color: #b29e84;
+		border-radius: 10px;
+
+	}
+	.topnav{
+		position: sticky;
+		position: relative;
+	}
+	.topnav #lien {
+		display: none;
+		background: linear-gradient(#253449,#1f1e30);
+	}
+	.topnav a {
+		color: #b29e84;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 30px;
+		display: block;
+	}
+	.topnav a.icon{
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.hamburger{
+		z-index: 3;
+	}
+	.topnav a:hover{
+
+		color: #b29e84;
+	}
+	.active{
+
+		color: #b29e84;
+	}
+
+	/* fin menu */
+
+	/* gestion des div */
+	.moitieg {
+		text-align: center;
+		width: 100%
+	}
+	.moitied{
+		text-align: center;
+		width: 100%
+	}
+	.moitiedp{
+		text-align: center;
+		width: 100%;
+	}
+	.backageval{
+		width: 100%;
+		background-position: center;
+		background-size: 50%;
+		height: 300px;
+		bottom: 50px;
+		top: 0px;
+	}
+	.backb2s{
+		width: 100%;
+		background-position: center;
+		background-size: 40%;
+		height: 300px;
+		bottom: 50px;
+		top: 0px;
+	}
+	.backivalis{
+		width: 100%;
+		background-position: center;
+		background-size: 50%;
+		height: 300px;
+		bottom: 50px;
+		top: 0px;
+	}
+	.backactif{
+		width: 100%;
+		background-position: center;
+		background-size: 40%;
+		height: 300px;
+		bottom: 50px;
+		top: 0px;
+	}
+	.backlycee{
+		width: 100%;
+		background-position: center;
+		background-size: 30%;
+		height: 300px;
+		bottom: 50px;
+		top: 0px;
+	}
+	/* fin de gestion des div */
+	.backcolor{
+		width: 100%
+	}
+	.img img{
+		width: 100%;
+		margin-bottom: 75px;
+	}
+	.FOOTER{
+		display: none;
+	}
+	.Titre{
+		font-size: 4em;
+	}
+	.Dev{
+		font-size: 2em;
+	}
+}
 @media screen and (min-width:862px) and (max-width:2560px){
 	li {
 		width: calc(99%/5);
 		text-align: center;
 		background: linear-gradient(#253449,#1f1e30);
-	  font-size: 1.5em;
-	  display: inline-block;
-	  border-radius: 10px;
+		font-size: 1.5em;
+		display: inline-block;
+		border-radius: 10px;
 		border: solid  2px #b29e84;
 		box-sizing: border-box;
 		letter-spacing: normal;
@@ -586,3 +585,4 @@ hr.style {
 	}
 
 }
+			/* barre social */
