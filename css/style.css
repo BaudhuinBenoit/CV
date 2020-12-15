@@ -334,7 +334,7 @@ hr.style {
 		background-position: 80%;
 	}
 .backb2s{
-		background-image: url("../img/b2s.jfif");
+		background-image: url("../img/b2s3.png");
 		background-size: 15%;
 		background-position: 23%;
 	}
@@ -350,7 +350,7 @@ hr.style {
 	background-attachment: fixed;
 	z-index: -1;
 	background-repeat: no-repeat;
-	background-image: url("../img/ivalis.jpg");
+	background-image: url("../img/ivalis59.png");
 	background-position: 80%;
 	background-size: 20%;
 		}
@@ -366,9 +366,9 @@ hr.style {
 	background-attachment: fixed;
 	z-index: -1;
 	background-repeat: no-repeat;
-	background-image: url("../img/actif.png");
+	background-image: url("../img/actif3.png");
 	background-position:23%;
-	background-size: 15%
+	background-size: 22%
 		}
 .backlycee{
 	display: inline-block;
@@ -382,9 +382,9 @@ hr.style {
 	background-attachment: fixed;
 	z-index: -1;
 	background-repeat: no-repeat;
-	background-image: url("../img/21095.jpg");
+	background-image: url("../img/bac1.png");
 	background-position: 75%;
-	background-size: 13%;
+	background-size: 17%;
 }
 .img {
 	text-align: center;
@@ -393,11 +393,10 @@ hr.style {
 /* test slide */
 
 .image-compare {
-  position: relative;
-  height: 300px;
-	width: 33%;
-	margin-left: auto;
-	margin-right: auto;
+	position: relative;
+height: 300px;
+width: 50%;
+margin: auto;
 }
 
 .image-compare1 {
@@ -432,7 +431,7 @@ hr.style {
 		transition: all 0.3s ease;
 		color: white;
 		font-size: 20px;
-		width: calc(100%/4);
+		width: calc(99%/4);
 		letter-spacing: normal;
 		padding: 0;
 		line-height: 2;
@@ -588,7 +587,7 @@ hr.style {
 		width: 100%;
 		margin-bottom: 75px;
 	}
-	.FOOTER{
+	.Footer{
 		border: solid 1px #1f1e30;
 		border-radius: 10px;
 		background: linear-gradient(#1f1e30, #253449);
@@ -601,6 +600,9 @@ hr.style {
 	}
 	.Dev{
 		font-size: 2em;
+	}
+	.disparu{
+		display: none;
 	}
 }
 @media screen and (min-width:862px) and (max-width:2560px){
