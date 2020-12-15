@@ -390,6 +390,39 @@ hr.style {
 	text-align: center;
 	padding: 1em;
 }
+/* test slide */
+
+.image-compare {
+  position: relative;
+  height: 300px; /*should be the same height as the images*/
+	left: 30%;
+	width: 50%
+}
+
+.image-compare1 {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.image-compare1 img {
+  display: block;
+  vertical-align: middle;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index: 9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 25px;
+  height: 25px;
+  background-color: #2196F3;
+  opacity: 0.7;
+  border-radius: 50%;
+}
+/* fin de test slide */
 
 	/* debut responsive! */
 @media screen and (max-width:861px) {
@@ -555,8 +588,13 @@ hr.style {
 		margin-bottom: 75px;
 	}
 	.FOOTER{
-		display: none;
-	}
+		border: solid 1px #1f1e30;
+		border-radius: 10px;
+		background: linear-gradient(#1f1e30, #253449);
+		position: relative;
+		bottom: 2.5em;
+		z-index: -1;
+}
 	.Titre{
 		font-size: 4em;
 	}
