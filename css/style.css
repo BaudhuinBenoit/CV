@@ -334,7 +334,7 @@ hr.style {
 		background-position: 80%;
 	}
 .backb2s{
-		background-image: url("../img/b2s3.png");
+		background-image: url("../img/b2s.png");
 		background-size: 15%;
 		background-position: 23%;
 	}
@@ -350,7 +350,7 @@ hr.style {
 	background-attachment: fixed;
 	z-index: -1;
 	background-repeat: no-repeat;
-	background-image: url("../img/ivalis59.png");
+	background-image: url("../img/IVALIS.png");
 	background-position: 80%;
 	background-size: 20%;
 		}
@@ -367,8 +367,8 @@ hr.style {
 	z-index: -1;
 	background-repeat: no-repeat;
 	background-image: url("../img/actif3.png");
-	background-position:23%;
-	background-size: 22%
+	background-position:25%;
+	background-size: 25%
 		}
 .backlycee{
 	display: inline-block;
@@ -382,46 +382,93 @@ hr.style {
 	background-attachment: fixed;
 	z-index: -1;
 	background-repeat: no-repeat;
-	background-image: url("../img/bac1.png");
-	background-position: 75%;
-	background-size: 17%;
+	background-image: url("../img/bac.png");
+	background-position: 70%;
+	background-size: 13%;
 }
 .img {
 	text-align: center;
 	padding: 1em;
 }
 /* test slide */
+div#comparison {
+	width: 44%;
+	height: 60vh;
+	max-height: 600px;
+	overflow: hidden;
+	margin: auto;}
 
-.image-compare {
-	position: relative;
-height: 300px;
-width: 50%;
-margin: auto;
+div#comparison figure {
+  background-image: url(../img/foret.jpg);
+  background-size: cover;
+  position: relative;
+  font-size: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }
-
-.image-compare1 {
+div#comparison figure > img {
+  position: relative;
+  width: 100%;
+}
+div#comparison figure div {
+  background-image: url(../img/Baudhuin-Benoit-Hiver.png);
+  background-size: cover;
   position: absolute;
-  width: auto;
-  height: auto;
+  width: 50%;
+  box-shadow: 0 5px 10px -2px rgba(0,0,0,0.3);
   overflow: hidden;
+  bottom: 0;
+  height: 100%;
 }
 
-.image-compare1 img {
-  display: block;
-  vertical-align: middle;
-}
-
-.img-comp-slider {
-  position: absolute;
-  z-index: 9;
-  cursor: ew-resize;
-  /*set the appearance of the slider:*/
-  width: 25px;
-  height: 25px;
+input[type=range]{
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  position: relative;
+  top: -2rem; left: -2%;
   background-color: #253449;
-  opacity: 0.7;
-  border-radius: 50%;
+  width: 102%;
 }
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]:active {
+  outline: none;
+}
+
+input[type=range]::-moz-range-track {
+  -moz-appearance:none;
+    height:15px;
+    width: 98%;
+    background-color: rgba(255,255,255,0.1);
+    position: relative;
+    outline: none;
+ }
+input[type=range]:active {
+  border: none;
+  outline: none;
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance:none;
+    width: 20px; height: 15px;
+    background: #fff;
+    border-radius: 0;
+   }
+input[type=range]::-moz-range-thumb {
+  -moz-appearance: none;
+  width: 20px;
+  height: 15px;
+  background: #fff;
+  border-radius: 0;
+     }
+input[type=range]:focus::-webkit-slider-thumb {
+    background: rgba(255,255,255,0.5);
+   }
+input[type=range]:focus::-moz-range-thumb {
+    background: rgba(255,255,255,0.5);
+   }
+
 /* fin de test slide */
 
 	/* debut responsive! */
@@ -431,7 +478,7 @@ margin: auto;
 		transition: all 0.3s ease;
 		color: white;
 		font-size: 20px;
-		width: calc(99%/4);
+		width: calc(100%/4);
 		letter-spacing: normal;
 		padding: 0;
 		line-height: 2;
@@ -542,7 +589,7 @@ margin: auto;
 	.backageval{
 		width: 100%;
 		background-position: center;
-		background-size: 50%;
+		background-size: 55%;
 		height: 300px;
 		bottom: 50px;
 		top: 0px;
@@ -550,7 +597,7 @@ margin: auto;
 	.backb2s{
 		width: 100%;
 		background-position: center;
-		background-size: 40%;
+		background-size: 50%;
 		height: 300px;
 		bottom: 50px;
 		top: 0px;
@@ -558,7 +605,7 @@ margin: auto;
 	.backivalis{
 		width: 100%;
 		background-position: center;
-		background-size: 50%;
+		background-size: 70%;
 		height: 300px;
 		bottom: 50px;
 		top: 0px;
@@ -566,7 +613,7 @@ margin: auto;
 	.backactif{
 		width: 100%;
 		background-position: center;
-		background-size: 40%;
+		background-size: 70%;
 		height: 300px;
 		bottom: 50px;
 		top: 0px;
@@ -587,7 +634,7 @@ margin: auto;
 		width: 100%;
 		margin-bottom: 75px;
 	}
-	.Footer{
+	.FOOTER{
 		border: solid 1px #1f1e30;
 		border-radius: 10px;
 		background: linear-gradient(#1f1e30, #253449);
@@ -601,8 +648,8 @@ margin: auto;
 	.Dev{
 		font-size: 2em;
 	}
-	.disparu{
-		display: none;
+	.Footer{
+		padding-bottom: 35px;
 	}
 }
 @media screen and (min-width:862px) and (max-width:2560px){
@@ -624,6 +671,8 @@ margin: auto;
 	.navmobile{
 		display: none;
 	}
-
+	.Footer{
+		padding-bottom: 35px;
+	}
 }
 			/* barre social */
