@@ -57,8 +57,14 @@ body{
   perspective: 1px; */
 	/* fin test para */
 }
+/* debut test */
+.bord{
+background: linear-gradient( #253449, #253450, #253449, #1f1e30);
+}
 
 
+/* fin test */
+}
 .backcolor{
 	background: linear-gradient( #253449, #253450, #253449, #1f1e30);
   background-color: #253449;
@@ -69,6 +75,7 @@ body{
   padding: 0.5em;
   text-align: center;
 	text-shadow: 0.1em 0.1em #253449;
+
 }
 .Titre{
 	text-shadow: 0.1em 0.1em #1f1e30;
@@ -104,8 +111,6 @@ li {
 	background: linear-gradient(#253449,#1f1e30);
   font-size: 2em;
   display: inline-block;
-  border-radius: 10px;
-	border: solid  2px #b29e84;
 	box-sizing: border-box;
 	letter-spacing: normal;
 	padding:0.5em;
@@ -113,6 +118,13 @@ li {
 	color: #b29e84;
 	font-family: 'Josefin Sans', sans-serif;
 
+}
+li:hover{
+  border:none;
+  background:rgba(0, 0, 0, 0.4);
+  background:#fff;
+	padding:0.5em;
+  color:#1b1b1b;
 }
 .puce{
 	color: #b29e84;
@@ -131,10 +143,8 @@ li {
 
 
 /* fin test  */
-li:hover{;
-	text-decoration: underline;
-}
-.bordG{
+
+ .bordG{
 	border-bottom-left-radius: 30px;
 }
 .bordD{
@@ -659,13 +669,10 @@ input[type=range]:focus::-moz-range-thumb {
 		background: linear-gradient(#253449,#1f1e30);
 		font-size: 1.5em;
 		display: inline-block;
-		border-radius: 10px;
-		border: solid  2px #b29e84;
 		box-sizing: border-box;
 		letter-spacing: normal;
 		padding:0.5em;
 		height: 2em;
-		color: #b29e84;
 		font-family: 'Josefin Sans', sans-serif;
 	}
 	.navmobile{
