@@ -59,15 +59,14 @@ body{
 }
 /* debut test */
 .bord{
-background: linear-gradient( #253449, #253450, #253449, #1f1e30);
+background-image: url("../img/background-header.jpg");
 }
 
 
 /* fin test */
 }
 .backcolor{
-	background: linear-gradient( #253449, #253450, #253449, #1f1e30);
-  background-color: #253449;
+	background-image: image(background-header.jpg);
 }
 .telephone>p{
   font-family: 'Quattrocento', serif;
@@ -125,6 +124,7 @@ li:hover{
   background:#fff;
 	padding:0.5em;
   color:#1b1b1b;
+
 }
 .puce{
 	color: #b29e84;
@@ -188,10 +188,9 @@ h3{
 .deplacementp{
 	border-top: 0px;
 	margin-bottom: 3em;
+	text-align: center;
 }
-.deplacementp>p{
-text-align: center;
-}
+
 h4{
   margin: 0.5em;
   font-size: 1.4em;
@@ -221,10 +220,8 @@ h4{
   font-style: italic;
 	padding: 1em 1em;
   }
-.FOOTER{
-	border: solid 2px #b29e84;
-	border-radius: 10px;
-	background: linear-gradient(#1f1e30, #253449);
+#foot {
+	padding-top: 2em;
 }
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
