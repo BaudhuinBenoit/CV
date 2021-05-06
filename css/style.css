@@ -662,7 +662,7 @@ input[type=range]:focus::-moz-range-thumb {
 
 /* debut slide responsive */
 div#comparison {
-	width: 60%;
+	width: 80%;
 	height: 40vh;
 	max-height: 600px;
 	overflow: hidden;
@@ -758,5 +758,11 @@ input[type=range]:focus::-moz-range-thumb {
 	.Footer{
 		padding-bottom: 35px;
 	}
+	div#comparison {
+		width: 40%;
+		height: 60vh;
+		max-height: 600px;
+		overflow: hidden;
+		margin: auto;}
 }
 			/* barre social */
